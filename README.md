@@ -9,11 +9,22 @@ A PyTorch and SymPy based library for the use of symbolic neural differential eq
 
 While neural network-based function approximation is incredible for its ability to approximate any function, where we know the exact function, symtorch can be useful.
 
+This repository is currently more of a model zoo but will provide some domain-specific utilities in the future.
+
+### Installation
+
+Until the pull request for sympy goes through, the updated version of sympy can be installed like so:
+
+`pip install git+https://github.com/synthetic-tensors/sympy.git`
+
+This should be fixed shortly.
+
 ### Feature roadmap
 
 * **CUDA:** This implementation currently only runs on CPU ⬜️
 * **Stochastic Neural ODE solver:** torchSDE ⬜️
 * **neural CDE** ⬜️
+* **symbolic GDE systems:** Graph differential equations ⬜️
 * **Stable API**  ⬜️
 * **Incorporation into torchdyn:** so that pytorch differential equation work can live in one place  ⬜️
 
