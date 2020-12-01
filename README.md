@@ -60,3 +60,11 @@ init = torch.tensor([100.0, 0.0, 0.0, 0.0]).view(-1, 1)
 t = torch.linspace(0, 50, 101)
 sola = odeint(func=lambda_f, y0=init, t=t, method='rk4')
 ```
+
+this yields:
+
+<p align="center">
+<img src="media/NumericalSolutionTorch.png" width="600" height="225">
+</p>
+<div align="center">
+</div>
