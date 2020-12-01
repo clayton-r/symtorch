@@ -5,6 +5,7 @@ A PyTorch and SymPy based library for the use of symbolic neural differential eq
 <img src="media/Logo.png" width="150" height="150">
 </p>
 <div align="center">
+</div>
 
 While neural network-based function approximation is incredible for its ability to approximate any function, where we know the exact function, symtorch can be useful.
 
